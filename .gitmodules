@@ -1,0 +1,3 @@
+[submodule "ScribeArabic"]
+	path = ScribeArabic
+	url = git@github.com:MehreenMehreen/ScribeArabic.git
