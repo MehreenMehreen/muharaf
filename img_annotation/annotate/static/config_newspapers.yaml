@@ -1,0 +1,15 @@
+# User names
+# Make directories in settings.STATIC_ROOT/datasets folder with the same names
+user_list: ['Carlos', 'Georges', 'Father_Joseph', 'CarlosAI', 'GeorgesAI', 'Akram', 'Mehreen']
+# for tags
+tag_dictionary: { 'Region_paragraph': 'rgba(20, 250, 20, 0.1)', #red
+                  'Region_heading': 'rgba(255, 102, 255, 0.1)', #pink
+                  'Region_advert': 'rgba(255, 255, 0, 0.1)', # yellow 
+                  'Region_advert_head': 'rgba(242, 103, 10, 0.1)', # orange 
+                  'Region_letterhead': 'rgba(20, 20, 250, 0.1)', #blue
+                  'Region_image': 'rgba(0, 255, 255, 0.1)',   #cyan 
+                  'Region_page_no': 'rgba(128, 128, 128, 0.1)',   #gray 
+                  
+                  'Orient_top_bottom': 'rgba(128, 200, 28, 0.1)', 
+                  'Orient_bottom_top': 'rgba(128, 200, 28, 0.1)'
+                } 

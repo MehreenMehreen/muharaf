@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- These styles from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_treeview -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'annotate.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <h4 class="text-center top-buffer" id="headingText">Arabic Annotations</h4>
+    <form class="row g-3 top-buffer" id="userForm" method="post" action="">
+            {% csrf_token %}
+            <input id="userInput" type="hidden" name="noNameYet" value="1"/>
+          <div class="row">
+              <div class="col">
+                <label class="form-label" for="users">Who is this?</label>
+                <select class="form-select" id="users"  onchange="submitSelectedUser()">
+                    {% for user in users %}
+                        <option value={{user}}> {{user}}</option>
+                    {% endfor %}
+                </select>
+              </div>
+          </div>
+          <div class="row top-buffer">
+            <div class="col">
+            <label class="form-label" for="tasks" >The task is:</label>
+            <select class="form-select" id="tasks" onchange="submitSelectedTask()">
+                {% for task in allTasksDescription %}
+                <option value={{task}}> {{task}}</option>
+                {% endfor %}
+            </select>
+            </div>
+            <div class="col">
+            <label class="form-label invisible" id="labelToCheck"  for="userToCheck"> Of user: </label>
+            <select id="userToCheck" class="form-select invisible" onchange="submitToCheckUser()">
+                {% for user in users %}
+                <option value={{user}}> {{user}}</option>
+                {% endfor %}
+            </select>
+            </div>
+          </div>
+        <!--<div class="row">
+            <div class="col">
+                <h3 id="dirLabel">Directories </h3>
+            </div>
+            <div class="col">
+                <h3 id="filesLabel">Files </h3>
+            </div>
+        </div>-->
+        <div class="row top-buffer">
+            <div class="col">
+                <label id="dirLabel" class="form-label" >Directories</label>
+                <select class="form-select" id="dirChoice" size=10></select>
+            </div>
+            <div class="col">
+                <label id="filesLabel" class="form-label" >Files</label>
+                <select class="form-select" id="imageFiles" size=10 multiple disabled> </select>
+            </div>
+        </div>
+        <div class="row top-buffer">
+            <div class="col text-center">
+                <button class="btn btn-primary btn-lg btn-block" id="startButton" onclick="startClicked()" disabled>Start <i class="fa">&#xf061;</i></button>
+            </div>
+        </div>
+    </form>
+
+    <p>
+        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Debug
+        </button>
+    </p>
+    <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body">
+                <p id="log2"> {{allTasks|safe}}[{{taskInd}}]</p>
+            </div>
+            <div class="card card-body" >
+                <p id="log3"> {{directoryList|safe}}</p>
+            </div>
+            <div class="card card-body">
+                <p id="log4">{{toverifyList|safe}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{% static 'annotateHome.js' %}"></script>
+
+<script>
+    let DIR_TO_VERIFY = {{toverifyList|safe}};
+    let DIR_LIST = {{directoryList|safe}};
+    
+
+    let USER_IND = {{userInd}};
+    let USER = {{users|safe}}[USER_IND];
+    let TASK_IND = {{taskInd}};
+    let TASK = {{allTasks|safe}}[TASK_IND];
+    let TASK_ARRAY = {{allTasks|safe}};
+    let TASK_DESCRIPTION = {{allTasksDescription|safe}}
+    let TO_CHECK_USER_IND = {{toCheckUserInd}};
+    let TO_CHECK_USER = {{users|safe}}[TO_CHECK_USER_IND];
+    let DIR_LISTBOX = null;
+    let TOTAL_FILES = {{totalFiles}};
+    let UNIQUE_KEY = "" + Math.random();
+    let HEADING = "{{heading}}";
+
+    let error = {{error|safe}}[0];
+    window.onload = function() {
+        headingText.innerHTML = HEADING;
+        let users = document.getElementById("users");
+        users.selectedIndex = USER_IND;
+        let tasks = document.getElementById("tasks");
+        tasks.selectedIndex = TASK_IND;
+        submitSelectedTask(false);
+        let ul = document.getElementById("directory");
+        if (TASK == "Annotate" || TASK == "Select") {
+            DIR_LISTBOX = new myDirList(DIR_LIST);
+        } else {
+
+            DIR_LISTBOX = new myDirList(DIR_TO_VERIFY);
+            
+        }
+        if (error.length > 0)
+            alert(error);
+    }
+</script>
+
+</body>
+</html>
