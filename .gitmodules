@@ -1,3 +1,3 @@
-[submodule "img_annotation"]
-	path = img_annotation
-	url = git@github.com:MehreenMehreen/img_annotation.git
+[submodule "scribeArabic"]
+	path = scribeArabic
+	url = git@github.com:MehreenMehreen/scribeArabic.git
