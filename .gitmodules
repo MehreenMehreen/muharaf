@@ -1,3 +1,6 @@
 [submodule "ScribeArabic"]
 	path = ScribeArabic
 	url = git@github.com:MehreenMehreen/ScribeArabic.git
+[submodule "xml_converter"]
+	path = xml_converter
+	url = git@github.com:MehreenMehreen/xml_converter.git
