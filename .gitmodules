@@ -4,3 +4,6 @@
 [submodule "xml_converter"]
 	path = xml_converter
 	url = git@github.com:MehreenMehreen/xml_converter.git
+[submodule "start_follow_read_arabic"]
+	path = start_follow_read_arabic
+	url = git@github.com:MehreenMehreen/start_follow_read_arabic.git
