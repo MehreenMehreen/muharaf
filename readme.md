@@ -5,8 +5,8 @@ for cursive text recognition.
 
 # The Dataset
 The dataset has two parts. 
-- The public part can be downloaded here:
-- The proprietary can be downloaded with permission from xxx from here
+- The public part of Muharaf has 1,216 images and can be downloaded from [Zenodo](https://zenodo.org/records/11492215). We distribute this dataset under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- The restricted part of Muharaf has 428 images distributed under a proprietary license. It can be downloaded by writing to [Elham Abdallah](elhamabdallah@usek.edu.lb) at Phoenix Center for Lebanese Studies, USEK. This part of the dataset is distributed under a proprietary license with the condition that it will not be re-distributed and only used for research purposes. 
 
 # ScribeArabic Annotation Software
 The annotation software used to create this dataset is in the img_annotation directory. Its documentation can be found here:
