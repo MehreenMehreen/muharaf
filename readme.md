@@ -1,4 +1,4 @@
-# محرف\\
+# محرف \
 Manuscripts of Arabic Handwriting (Muharaf) Dataset 
 
 This repository has data and code for the paper: Muharaf: Manuscripts of handwritten Arabic Dataset
