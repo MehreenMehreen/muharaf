@@ -21,4 +21,5 @@ All image files accompanied by their corresponding _annotate files containing an
 # Start, Follow, Read &mdash; Arabic
 The HTR results reported in the paper can be reproduced using the [Start, Follow, Read &mdash; Arabic code](https://github.com/MehreenMehreen/start_follow_read_arabic) System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3).
 
+# Acknowledgements
 
