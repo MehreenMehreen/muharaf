@@ -19,4 +19,6 @@ The ScribeArabic software natively uses JSON files. You can conver them to PAGE-
 All image files accompanied by their corresponding _annotate files containing annotations, transcriptions and tagging can be viewed using the [XML viewer](https://github.com/MehreenMehreen/xml_converter) in the page-xml converter repository. 
 
 # Start, Follow, Read &mdash; Arabic
-The HTR results reported in the paper can be reproduced using the Start, Follow, Read &mdash; Arabic System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3). Detailed instructions are on the [Start, Follow, Read &mdash; repository](https://github.com/MehreenMehreen/start_follow_read_arabic).
+The HTR results reported in the paper can be reproduced using the [Start, Follow, Read &mdash; Arabic code](https://github.com/MehreenMehreen/start_follow_read_arabic) System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3).
+
+
