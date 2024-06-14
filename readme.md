@@ -13,10 +13,10 @@ The dataset has two parts.
 [ScribeArabic](https://github.com/MehreenMehreen/ScribeArabic) is the annotation software used to create the Muharaf Dataset. Read its [manual](https://github.com/MehreenMehreen/ScribeArabic/blob/main/manual.md) to get an idea of how it works.
 
 # JSON to PAGE-XML Converter
-The ScribeArabic software natively uses JSON files. You can conver them to PAGE-XML using the source code provdided in the page-xml folder
+The ScribeArabic software natively uses JSON files. You can conver them to PAGE-XML using the [source code provdided in the page-xml folder](https://github.com/MehreenMehreen/xml_converter).
 
 # Page Elements Viewer
-All image files accompanied by their corresponding _annotate files containing annotations, transcriptions and tagging can be viewed using the viewer in xxx directory. 
+All image files accompanied by their corresponding _annotate files containing annotations, transcriptions and tagging can be viewed using the [XML viewer](https://github.com/MehreenMehreen/xml_converter) in the page-xml converter repository. 
 
-# Start, Follow, Read - Arabic
-The HTR results reported in the paper can be reproduced using the Start, Follow, Read-Arabic System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3). Detailed instructions are here xxx.
+# Start, Follow, Read &mdash Arabic
+The HTR results reported in the paper can be reproduced using the Start, Follow, Read &mdash Arabic System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3). Detailed instructions are on the [Start, Follow, Read &mdash repository](https://github.com/MehreenMehreen/start_follow_read_arabic).
