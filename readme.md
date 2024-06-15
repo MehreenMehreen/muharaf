@@ -3,6 +3,8 @@
 
 This repository has data and code for the paper: Muharaf: Manuscripts of handwritten Arabic Dataset
 for cursive text recognition. 
+[Mehreen Saeed](mehreen.mehreen@gmail.com), [Adrian Chan](adrian27513@gmail.com), [Anupam Mijar](aamijar230@gmail.com), [Joseph Moukarzel](josephmoukarzel@usek.edu.lb), [Georges Habchi](georgeshabchi@usek.edu.lb), [Carlos Younes](carlosyounes@usek.edu.lb), [Amin Elias](a.elias@lahlebanon.org), [Chau-Wai Wong](chauwai.wong@ncsu.edu), [Akram Khater](akhater@ncsu.edu)
+
 
 # The Dataset
 The dataset has two parts. 
