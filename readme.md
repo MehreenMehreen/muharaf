@@ -22,4 +22,7 @@ All image files accompanied by their corresponding _annotate files containing an
 The HTR results reported in the paper can be reproduced using the [Start, Follow, Read &mdash; Arabic code](https://github.com/MehreenMehreen/start_follow_read_arabic) System. This code is adapted from [Start, Follow, Read System](https://github.com/cwig/start_follow_read) and its [Python3 version](https://github.com/sharmaannapurna/start_follow_read_py3).
 
 # Acknowledgements
+We thank Stephen Randall Filios from Family Search for initiating discussions and providing feedback on tagging page elements in document images. 
+We thank Elham Abdallah for providing support and coordinating work between NC State and USEK.
+This work was supported in part by the National Endowment for the Humanities (FAIN: ZPA-283823-265 22), Family Search, and the ECE Undergraduate Research Program at NC State.
 
