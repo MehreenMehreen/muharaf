@@ -1,8 +1,8 @@
  
 # محرف Manuscripts of Arabic Handwriting (Muharaf) Dataset 
 
-This repository has data and code for the paper: Muharaf: Manuscripts of handwritten Arabic Dataset
-for cursive text recognition. 
+This repository has data and code for the paper: [Muharaf: Manuscripts of handwritten Arabic Dataset
+for cursive text recognition](https://arxiv.org/abs/2406.09630). 
 
 [Mehreen Saeed](mehreen.mehreen@gmail.com), [Adrian Chan](adrian27513@gmail.com), [Anupam Mijar](aamijar230@gmail.com), [Joseph Moukarzel](josephmoukarzel@usek.edu.lb), [Georges Habchi](georgeshabchi@usek.edu.lb), [Carlos Younes](carlosyounes@usek.edu.lb), [Amin Elias](a.elias@lahlebanon.org), [Chau-Wai Wong](chauwai.wong@ncsu.edu), [Akram Khater](akhater@ncsu.edu)
 
