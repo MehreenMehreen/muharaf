@@ -41,13 +41,12 @@ This work was supported in part by the National Endowment for the Humanities (FA
 # Citation
 
 ```bibtex
-@misc{saeed2024muharafmanuscriptshandwrittenarabic,
+@inproceedings{
+    saeed2024muharaf,
     title={Muharaf: Manuscripts of Handwritten Arabic Dataset for Cursive Text Recognition},
-    author={Mehreen Saeed and Adrian Chan and Anupam Mijar and Joseph Moukarzel and Georges Habchi and Carlos Younes and Amin Elias and Chau-Wai Wong and Akram Khater},
+    author={Mehreen Saeed and Adrian Chan and Anupam Mijar and joseph Moukarzel and Gerges Habchi and Carlos Younes and amin elias and Chau-Wai Wong and Akram Khater},
+    booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
     year={2024},
-    eprint={2406.09630},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2406.09630},
+    url={https://openreview.net/forum?id=1s8l1tnTXW}
 }
 ```
