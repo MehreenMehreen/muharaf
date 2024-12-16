@@ -37,9 +37,12 @@ The HTR results reported in the paper can be reproduced using the [Start, Follow
 
 # Acknowledgements
 
-We thank Stephen Randall Filios from Family Search for initiating discussions and providing feedback on tagging page elements in document images.
-We thank Elham Abdallah for providing support and coordinating work between NC State and USEK.
-This work was supported in part by the National Endowment for the Humanities (FAIN: ZPA-283823-265 22), Family Search, and the ECE Undergraduate Research Program at NC State.
+We thank Stephen Randall Filios from Family Search for initiating discussions and providing feedback on tagging page elements in document images. We thank Elham Abdallah who is the Assistant University Librarian at USEK for providing support and coordinating work between NC State and USEK.
+
+We acknowledge the computing resources provided by North Carolina State University High- Performance Computing Services Core Facility (RRID:SCR_022168). We also thank Andrew Petersen for his assistance and technical guidance on running jobs on the HPC.
+
+This work was supported in part by the National Endowment for the Humanities (FAIN: ZPA-283823- 22), Family Search, and the ECE Undergraduate Research Program at NC State.
+
 
 # Citation
 
