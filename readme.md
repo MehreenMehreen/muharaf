@@ -5,6 +5,8 @@ for cursive text recognition](https://arxiv.org/abs/2406.09630).
 
 [Mehreen Saeed](mailto:mehreen.mehreen@gmail.com), [Adrian Chan](mailto:adrian27513@gmail.com), [Anupam Mijar](mailto:aamijar230@gmail.com), [Joseph Moukarzel](mailto:josephmoukarzel@usek.edu.lb), [Georges Habchi](mailto:georgeshabchi@usek.edu.lb), [Carlos Younes](mailto:carlosyounes@usek.edu.lb), [Amin Elias](mailto:a.elias@lahlebanon.org), [Chau-Wai Wong](mailto:chauwai.wong@ncsu.edu), [Akram Khater](mailto:akhater@ncsu.edu)
 
+Published at [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97870)
+
 Updates 📣
 
 - 🤗 Now on HuggingFace! [Muharaf-public line images](https://huggingface.co/datasets/aamijar/muharaf-public)
