@@ -8,6 +8,7 @@ for cursive text recognition](https://arxiv.org/abs/2406.09630).
 
 
 Updates 📣
+- Check out our latest model trained on 3382 images and its demo on [https://mehreenmehreen-arabicocr.hf.space]. More details to follow soon.
 
 - 🤗 Now on HuggingFace! [Muharaf-public line images](https://huggingface.co/datasets/aamijar/muharaf-public)
 - Published at [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97870)
